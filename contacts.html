@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 
+  <!-- ОШИБКА 4: слишком длинный <title> (≈130 символов) -->
   <title>Контакты клининговой компании CleanHome в Москве — адрес офиса, телефон, email, режим работы, схема проезда и форма обратной связи</title>
 
+  <!-- ОШИБКА 3: ОТСУТСТВУЕТ meta name="description" -->
 
-
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧽</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,6 +29,7 @@
   <main>
 
     <section class="page-head">
+      <!-- ПЕРВЫЙ <h1> -->
       <h1>Контакты</h1>
       <p>Свяжитесь с нами удобным способом или оставьте заявку — перезвоним в течение 10 минут.</p>
     </section>
@@ -58,11 +58,12 @@
               src="https://picsum.photos/seed/officemap/700/450"
               alt=""
               width="700" height="450"
-              style="width:100%;border-radius:12px;margin-top:24px;">
+              style="width:100%;border-radius:12px;margin-top:24px;object-fit:cover;">
               <!-- ОШИБКА 2: пустой alt у изображения карты -->
           </div>
 
           <div>
+            <!-- ОШИБКА 1: второй <h1> на странице -->
             <h1>Оставить заявку</h1>
             <p class="subtitle" style="text-align:left;margin:8px 0 20px;">
               Заполните форму — мы перезвоним и уточним детали уборки.
@@ -92,11 +93,11 @@
     <div class="container">
       <div class="cols">
         <div>
-          <h4>CleanHome</h4>
+          <div class="footer-title">CleanHome</div>
           <p>Клининговая компания в Москве. Уборка квартир, офисов и коттеджей с 2018 года.</p>
         </div>
         <div>
-          <h4>Навигация</h4>
+          <div class="footer-title">Навигация</div>
           <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="about.html">О компании</a></li>
@@ -104,7 +105,7 @@
           </ul>
         </div>
         <div>
-          <h4>Контакты</h4>
+          <div class="footer-title">Контакты</div>
           <ul>
             <li><a href="tel:+74951234567">+7 (495) 123‑45‑67</a></li>
             <li><a href="mailto:info@cleanhome.ru">info@cleanhome.ru</a></li>
