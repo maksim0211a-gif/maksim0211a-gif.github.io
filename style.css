@@ -22,7 +22,6 @@ img { display: block; max-width: 100%; }
 
 .container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
 
-/* ===== Header ===== */
 .site-header {
   position: sticky;
   top: 0;
@@ -51,7 +50,6 @@ img { display: block; max-width: 100%; }
 .main-nav a:hover,
 .main-nav a[aria-current="page"] { color: var(--green); }
 
-/* ===== Buttons ===== */
 .btn {
   display: inline-block;
   padding: 14px 28px;
@@ -67,14 +65,12 @@ img { display: block; max-width: 100%; }
 }
 .btn:hover { background: var(--green-dark); transform: translateY(-2px); }
 
-/* ===== Hero ===== */
 .hero { padding: 90px 0; background: linear-gradient(135deg, #e8f7ef 0%, #f7fdfa 100%); }
 .hero .container { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; }
 .hero h1 { font-size: 46px; line-height: 1.15; letter-spacing: -1px; }
 .hero .lead { margin: 20px 0 32px; font-size: 19px; color: var(--gray); }
 .hero img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); object-fit: cover; }
 
-/* ===== Sections ===== */
 .section { padding: 80px 0; }
 .section h2 { font-size: 34px; text-align: center; letter-spacing: -0.5px; }
 .section .subtitle { text-align: center; color: var(--gray); max-width: 620px; margin: 14px auto 48px; }
@@ -93,7 +89,6 @@ img { display: block; max-width: 100%; }
 .card p { color: var(--gray); }
 .card .price { display: block; margin-top: 16px; font-weight: 700; color: var(--green); }
 
-/* ===== Features ===== */
 .features { background: var(--light); }
 .feature-list {
   list-style: none;
@@ -122,19 +117,16 @@ img { display: block; max-width: 100%; }
   font-weight: 800;
 }
 
-/* ===== CTA ===== */
 .cta { background: var(--green); color: #fff; text-align: center; padding: 70px 0; }
 .cta h2 { font-size: 32px; margin-bottom: 12px; }
 .cta p { opacity: 0.9; margin-bottom: 28px; }
 .cta .btn { background: #fff; color: var(--green); }
 .cta .btn:hover { background: #eafaf2; }
 
-/* ===== Page heading (about/contacts) ===== */
 .page-head { padding: 70px 0 40px; background: var(--light); text-align: center; }
 .page-head h1 { font-size: 40px; letter-spacing: -1px; }
 .page-head p { color: var(--gray); max-width: 640px; margin: 14px auto 0; }
 
-/* ===== Contacts ===== */
 .contacts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
 .contact-info dt { font-weight: 700; margin-top: 18px; }
 .contact-info dd { color: var(--gray); }
@@ -158,17 +150,18 @@ img { display: block; max-width: 100%; }
   border-color: var(--green);
 }
 
-/* ===== Footer ===== */
 .site-footer { background: var(--dark); color: #c9d8d1; padding: 48px 0 24px; }
 .site-footer .cols { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 32px; }
-.site-footer h4 { color: #fff; margin-bottom: 12px; font-size: 16px; }
+
+.site-footer .footer-title { color: #fff; margin-bottom: 12px; font-size: 16px; font-weight: 700; }
+.site-footer h3 { color: #fff; margin-bottom: 12px; font-size: 16px; font-weight: 700; }
+
 .site-footer a { color: #c9d8d1; text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .site-footer ul { list-style: none; }
 .site-footer ul li { margin-bottom: 8px; }
 .site-footer .copy { border-top: 1px solid #234034; padding-top: 20px; text-align: center; font-size: 14px; color: #8fa8a0; }
 
-/* ===== Адаптив ===== */
 @media (max-width: 860px) {
   .hero .container,
   .contacts-grid,
